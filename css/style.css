@@ -421,7 +421,7 @@ p.lead {
 }
 
 #portofolio figure figcaption {
-    padding: 20px 30px;
+    padding: 0 30px;
     position: absolute;
     top: 0;
     left: 0;
