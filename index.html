@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Bogdan Socaciu. Proficient programmer">
-    <meta name="keywords" content="Bogdan Socaciu Programming Java Android .NET C# WPF Windows Phone Web JavaScript CSS HTML">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <meta name="keywords"
+          content="Bogdan Socaciu Programming Java Android .NET C# WPF Windows Phone Web JavaScript CSS HTML">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/animate.css" rel="stylesheet" type="text/css"/>
     <link rel="icon" type="image/png" href="css/assets/IconPersonalWebsite_noBackground.png">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen"/>
     <title>Bogdan Socaciu</title>
@@ -15,62 +16,79 @@
     <script src="javascript/sticky.nav.bar.js"></script>
 </head>
 <body>
-    <!--HEADER-->
-    <header id="header">
-        <h1>Bogdan Socaciu</h1>
-        <p class="lead_header">Think outside the brackets</p>
-        <a class="scroll-down" href="#nav">
-            <span class="glyphicon glyphicon-chevron-down "></span>
+<!--HEADER-->
+<header id="header">
+    <h1>Bogdan Socaciu</h1>
+
+    <p class="lead_header">Think outside the brackets</p>
+    <a class="scroll-down" href="#nav">
+        <span class="glyphicon glyphicon-chevron-down "></span>
+    </a>
+</header>
+<!--NAVIGATION BAR-->
+<nav id="nav">
+    <ul>
+        <a href="#profile">
+            <li>Profile</li>
         </a>
-    </header>
-    <!--NAVIGATION BAR-->
-    <nav id="nav">
-        <ul>
-            <a href="#profile"><li>Profile</li></a>
-            <a href="#experience"><li>Experieces</li></a>
-            <a href="#abilities"><li>Abilities</li></a>
-            <a href="#portofolio"><li>Portofolio</li></a>
-            <a href="#contact"><li>Contact</li></a>
-        </ul>
-        <div class="handle">Menu</div>
-    </nav>
-    <!--Navigation Bar Transition START-->
-    <script>
-        $('.handle').on('click',function(){
-            $('nav ul').toggleClass('showing');
-        });
-    </script>
-    <!--Navigation Bar Transition START-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!--Loader START-->
-    <!--
-    <script type="text/javascript">
-        $(window).load(function() {
-            $(".loader").fadeOut("slow");
-        })
-    </script>
-    <div class="loader"></div>
-    -->
-    <!--Loader END-->
-    
-    <!--CONTENT-->
-    <!--PROFILE-->
-    <div class="background-white">
+        <a href="#experience">
+            <li>Experieces</li>
+        </a>
+        <a href="#abilities">
+            <li>Abilities</li>
+        </a>
+        <a href="#portofolio">
+            <li>Portofolio</li>
+        </a>
+        <a href="#contact">
+            <li>Contact</li>
+        </a>
+    </ul>
+    <div class="handle">Menu</div>
+</nav>
+<!--Navigation Bar Transition START-->
+<script>
+    $('.handle').on('click', function () {
+        $('nav ul').toggleClass('showing');
+    });
+</script>
+<!--Navigation Bar Transition START-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--Loader START-->
+<!--
+<script type="text/javascript">
+    $(window).load(function() {
+        $(".loader").fadeOut("slow");
+    })
+</script>
+<div class="loader"></div>
+-->
+<!--Loader END-->
+
+<!--CONTENT-->
+<!--PROFILE-->
+<div class="background-white">
     <div id="profile" class="container">
         <div class="post">
             <h2>Profile</h2>
+
             <p class="lead">Think twice, code once.</p>
             <hr/>
             <div class="row">
                 <div class="col-md-4">
                     <h3>About me</h3>
-                    <p>I'm an experienced programmer with a good knowledge of different programming languages and techniques. I'm also an all-round web developer, who stands for quality and spends time optimizing applications. I also like working in a team, because it can help you learn a lot about different technologies and development practices.</p>
+
+                    <p>I'm an experienced programmer with a good knowledge of different programming languages and
+                        techniques. I'm also an all-round web developer, who stands for quality and spends time
+                        optimizing applications. I also like working in a team, because it can help you learn a lot
+                        about different technologies and development practices.</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img width="246" height="296" alt="Bogdan Socaciu" src="css/assets/bogdan_socaciu.jpg"/>
                 </div>
                 <div class="col-md-4">
                     <h3>Details</h3>
+
                     <p>
                         <strong>
                             Name :
@@ -91,11 +109,21 @@
                         Cluj-Napoca, Romania
                     </p>
                     <!--TWITTER START-->
-                        <a href="https://twitter.com/BogdanSocaciu" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @BogdanSocaciu</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    <a href="https://twitter.com/BogdanSocaciu" class="twitter-follow-button" data-show-count="false"
+                       data-size="large">Follow @BogdanSocaciu</a>
+                    <script>!function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + '://platform.twitter.com/widgets.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'twitter-wjs');</script>
                     <!--TWITTER END-->
                     <!--GITHUB START-->
-                    <iframe src="https://ghbtns.com/github-btn.html?user=SCBbestof&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=SCBbestof&type=follow&count=true&size=large"
+                            frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
                     <!--GITHUB END-->
                     <!--BLOG START-->
                     <!--TODO-->
@@ -104,26 +132,30 @@
             </div>
         </div>
     </div>
-    </div>
-    <div class="background-gray">
+</div>
+<div class="background-gray">
     <div id="experience" class="container post">
         <h2>Experience</h2>
+
         <p class="lead">
-            “Proper teaching is recognized with ease. You can know it without fail because it awakens within you that sensation which tells you this is something you have always known.”
+            “Proper teaching is recognized with ease. You can know it without fail because it awakens within you that
+            sensation which tells you this is something you have always known.”
             <br/>
             - Frank Herbert, Dune
         </p>
         <hr/>
         <h3>Education</h3>
+
         <div class="experience_div">
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>National High-school of Informatics "Matei Basarab" Rm.Valcea, Romania</h4>
+
                     <p>Sept 2009 - Jun 2013</p>
                 </div>
                 <div class="col-md-8">
                     <p>
-                       <strong>High-school Graduation Diploma (Specialization: Mathematics-Informatics) </strong>
+                        <strong>High-school Graduation Diploma (Specialization: Mathematics-Informatics) </strong>
                         <span>The high-school made me realize that I want to make something more of my computer skills. I participated to a lot of contests (data structures and algorithms, math, application development, system administration) where I was remarked as a talented student.</span>
                     </p>
                 </div>
@@ -133,6 +165,7 @@
                     <h4>
                         Technical University of Cluj-Napoca, Romania
                     </h4>
+
                     <p>
                         Sept 2013 - current
                     </p>
@@ -144,6 +177,7 @@
                             The education is covering almost everything there is to know about computers and engineering. High-level programming (Java , C#) , low-level programming (C , Assembly) , hardware programming (VHDL, the study of digital circuits) , electrical engineering , mathematics (numerical analysis, big data manipulation, system's theory) , databases (object-oriented, MySQL , Oracle) , web technologies (HTML , CSS , JavaScript , PHP) , system administration, networking and so on...
                         </span>
                     </p>
+
                     <p class="experience-details">
                         <span class="location">
                             <span class="glyphicon glyphicon-map-marker"></span>
@@ -161,17 +195,22 @@
         <hr/>
         <!--CERTIFICATES START-->
         <h3>Certificates</h3>
+
         <div class="experience_div">
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>Oracle Academy</h4>
+
                     <p>Jun 2013</p>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        <strong>Award of Course Completion (Specialization: Database Design and Programming with SQL) </strong>
-                        <span><a href="https://academy.oracle.com/pages/database_design_course.pdf">Course overview (link)</a>: This course engages students to analyze complex business scenarios and create a data model—a conceptual representation of an organization’s information. Participants implement their database design by creating a physical database using SQL. Basic SQL syntax and the rules for constructing valid SQL statements are reviewed. This course culminates with a project that challenges students to design, implement, and demonstrate a database solution for a business or organization</span>
+                        <strong>Award of Course Completion (Specialization: Database Design and Programming with
+                            SQL) </strong>
+                        <span><a href="https://academy.oracle.com/pages/database_design_course.pdf">Course overview
+                            (link)</a>: This course engages students to analyze complex business scenarios and create a data model—a conceptual representation of an organization’s information. Participants implement their database design by creating a physical database using SQL. Basic SQL syntax and the rules for constructing valid SQL statements are reviewed. This course culminates with a project that challenges students to design, implement, and demonstrate a database solution for a business or organization</span>
                     </p>
+
                     <p class="experience-details">
                         <span class="link">
                             <span class="glyphicon glyphicon-link"></span>
@@ -183,6 +222,7 @@
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>University of Cambridge</h4>
+
                     <p>
                         2013
                     </p>
@@ -190,8 +230,10 @@
                 <div class="col-md-8">
                     <p>
                         <strong>Cambridge ESOL Level 2 Certificate</strong>
-                        <span>As part of the UK government’s plan to improve levels of English, these certificates are based upon the <a href="http://www.excellencegateway.org.uk/node/1516">Adult ESOL Core Curriculum</a>, and they reflect the use of English in everyday life in the UK.</span>
+                        <span>As part of the UK government’s plan to improve levels of English, these certificates are based upon the <a
+                                href="http://www.excellencegateway.org.uk/node/1516">Adult ESOL Core Curriculum</a>, and they reflect the use of English in everyday life in the UK.</span>
                     </p>
+
                     <p class="experience-details">
                         <span class="link">
                             <span class="glyphicon glyphicon-link"></span>
@@ -203,6 +245,7 @@
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>CISCO Networking Academy</h4>
+
                     <p>
                         2012
                     </p>
@@ -212,6 +255,7 @@
                         <strong>IT Essentials: PC Hardware and Software</strong>
                         <span>The IT Essentials curriculum provides an introduction to the computer hardware and software skills needed to help meet the growing demand for entry-level information and communication technology (ICT) professionals. The curriculum covers the fundamentals of computer hardware and software as well as advanced concepts such as security, networking, and the responsibilities of an ICT professional.</span>
                     </p>
+
                     <p class="experience-details">
                         <span class="link">
                             <span class="glyphicon glyphicon-link"></span>
@@ -223,6 +267,7 @@
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>ECDL Foundation</h4>
+
                     <p>
                         2012
                     </p>
@@ -232,6 +277,7 @@
                         <strong>ECDL Core Cetificate</strong>
                         <span>The ECDL Core Certificate indicates that the holder has passed a theoretical module that assesses basic concepts of Information Technology and six practical modules which evaluates the holder’s competence to use a personal computer and use common computer applications.</span>
                     </p>
+
                     <p class="experience-details">
                         <span class="link">
                             <span class="glyphicon glyphicon-link"></span>
@@ -245,16 +291,19 @@
         <!--CERTIFICATES END-->
         <!--WORK EXPERIENCE START-->
         <h3>Careers</h3>
+
         <div class="experience_div">
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>iQuest</h4>
+
                     <p>October 2015 - present</p>
                 </div>
                 <div class="col-md-8">
                     <p>
                         <strong>Junior Software Engineer</strong>
                     </p>
+
                     <p>
                      <span>Skills used:
                         <ul>
@@ -289,12 +338,15 @@
             <div class="experience_div row">
                 <div class="col-md-4">
                     <h4>iQuest</h4>
+
                     <p>July 2015 - August 2015</p>
                 </div>
                 <div class="col-md-8">
                     <p>
                         <strong>Java Solutions Intern</strong>
+                        <span>Overview: This internship was a very nice experience, being able to work on an exciting new project. Me and my team had to design and implement a module which will intermediate the data transmission between some web crawler repositories and a news site cluster.</span>
                     </p>
+
                     <p>
                      <span>Skills used:
                         <ul>
@@ -323,7 +375,50 @@
             </div>
             <div class="experience_div row">
                 <div class="col-md-4">
+                    <h4>4box</h4>
+
+                    <p>September 2014 - June 2015</p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Co-founder & Android Developer</strong>
+                        <span>Overview: In my second undergraduate year I co-founded a start-up company centered on android development which would eventually grow to do web development projects too. The project came to an end when because I became to busy to dedicate fully to the start-up, being a student who also works as a freelancer and started an internship at a multinational software company. I choosed iQuest because I felt like it is a medium that can accelerate my growth and, so far, I was not dissapointed.</span>
+                    </p>
+
+                    <p>
+                     <span>Skills used:
+                        <ul>
+                            <li>Android SDK</li>
+                            <li>Java</li>
+                            <li>Google Services</li>
+                            <li>Parse API</li>
+                            <li>REST</li>
+                            <li>HTML & CSS</li>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                            <li>Wordpress</li>
+                            <li>Joomla</li>
+                            <li>Laravel</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Gradle</li>
+                            <li>Git</li>
+                            <li>Waterfall</li>
+                        </ul>
+                    </span>
+                    </p>
+                    <p class="experience-details">
+                        <span class="location">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            Cluj-Napoca
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="experience_div row">
+                <div class="col-md-4">
                     <h4>iQuest</h4>
+
                     <p>February 2014 - present</p>
                 </div>
                 <div class="col-md-8">
@@ -331,6 +426,7 @@
                         <strong>Java Solutions Trainee (iQuest University Program)</strong>
                         <span>Overview: The main purpose of this is to offer mentoring to undergraduate students from the first year of their studies until they start their Summer Internship.  The focus of this phase will be on design principles, best practices and technology core elements.</span>
                     </p>
+
                     <p>
                      <span>Skills used:
                         <ul>
@@ -359,22 +455,24 @@
         </div>
         <!--WORK EXPERIENCE END-->
     </div>
-    </div>
-    <div class="background-white">
-        <div id="abilities" class="container post">
-            <h2>Abilities</h2>
-            <p class="lead">
-                "The larger the island of knowledge, the longer the shoreline of wonder."
-                <br/>
-                - Ralph W. Sockman
-            </p>
-            <hr/>
-            <h3>Skills</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="no-bullet-points">
-                        <li>
-                            <span class="ability-title">Object Oriented Programming</span>
+</div>
+<div class="background-white">
+    <div id="abilities" class="container post">
+        <h2>Abilities</h2>
+
+        <p class="lead">
+            "The larger the island of knowledge, the longer the shoreline of wonder."
+            <br/>
+            - Ralph W. Sockman
+        </p>
+        <hr/>
+        <h3>Skills</h3>
+
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="no-bullet-points">
+                    <li>
+                        <span class="ability-title">Object Oriented Programming</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -382,9 +480,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">HTML</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">HTML</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -392,9 +490,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">CSS</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">CSS</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -402,9 +500,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">System Security and Administration</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">System Administration</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -412,9 +510,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Java</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Java</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -422,9 +520,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Android</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Android</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -432,9 +530,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Bootstrap Framework</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Bootstrap Framework</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -442,9 +540,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">MVC Pattern</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">MVC Pattern</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -452,49 +550,29 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">C#</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">REST</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">C/C++</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">MongoDB</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Scrum</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Kanban</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Wordpress</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">C#</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -502,9 +580,49 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Windows Phone</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">C/C++</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Scrum</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Kanban</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Waterfall</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Wordpress</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -512,9 +630,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Python</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Windows Phone</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -522,53 +640,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Gradle</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Numerical Analysis</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Containerization (Docker)</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Database Administration</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="no-bullet-points">
-                        <li>
-                            <span class="ability-title">REST</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Python</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -576,29 +650,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Javascript</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Spring</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">AngularJS</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Gradle</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -606,247 +660,13 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">jQuery</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Hibernate</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">PHP</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Joomla</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Laravel</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">PHPBB3</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">TrinityCore Framework</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Ruby</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">JBoss</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Hazelcast</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">MATLAB</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Big Data</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">VHDL</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Reverse Engineering</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Cloud Computing (OpenNebula)</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
-            <hr/>
-            <h3>Applications</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="no-bullet-points">
-                        <li>
-                            <span class="ability-title">Windows</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Linux</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Android-Studio</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Eclipse</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">IntelliJ IDEA</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Git</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>   
-                        <li>
-                            <span class="ability-title">Microsoft Office</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Tortoise SVN</span>
-                            <span class="ability-score">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Filezilla</span>
+            <div class="col-md-6">
+                <ul class="no-bullet-points">
+                    <li>
+                        <span class="ability-title">Containerization (Docker)</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -854,13 +674,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                    </ul>
-                    </div>
-                <div class="col-md-6">
-                    <ul class="no-bullet-points">
-                        <li>
-                            <span class="ability-title">Notepad++</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Database Administration</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -868,9 +684,29 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Visual Studio</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Javascript</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Spring</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">AngularJS</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -878,19 +714,29 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Apache Tomcat</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">jQuery</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Hibernate</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">ISE Design Suite</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">PHP</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -898,9 +744,49 @@
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Adobe Photoshop</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Joomla</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Laravel</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">PHPBB3</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">TrinityCore Framework</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Ruby</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -908,9 +794,29 @@
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">Sublime Text</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">JBoss</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Hazelcast</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Big Data</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -918,9 +824,9 @@
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">IDA Pro</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Malware Reverse Engineering</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -928,27 +834,28 @@
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">OllyDebugger</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Cloud Computing (OpenNebula)</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
-            <hr/>
-            <h3>Languages</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="no-bullet-points">
-                        <li>
-                            <span class="ability-title">Romanian</span>
+        </div>
+        <hr/>
+        <h3>Applications</h3>
+
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="no-bullet-points">
+                    <li>
+                        <span class="ability-title">Windows</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -956,9 +863,9 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                        <li>
-                            <span class="ability-title">English</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Linux</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -966,13 +873,143 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                             </span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="no-bullet-points">
-                        <li>
-                            <span class="ability-title">French</span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Android-Studio</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Eclipse</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">IntelliJ IDEA</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Git</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Microsoft Office</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Subversion</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Filezilla</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="no-bullet-points">
+                    <li>
+                        <span class="ability-title">Notepad++</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Visual Studio</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Apache Tomcat</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">ISE Design Suite</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Adobe Photoshop</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">Sublime Text</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">IDA Pro</span>
                             <span class="ability-score">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -980,60 +1017,132 @@
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                    <li>
+                        <span class="ability-title">OllyDebugger</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr/>
+        <h3>Languages</h3>
+
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="no-bullet-points">
+                    <li>
+                        <span class="ability-title">Romanian</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">English</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="no-bullet-points">
+                    <li>
+                        <span class="ability-title">French</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="ability-title">German</span>
+                            <span class="ability-score">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                                <span class="glyphicon glyphicon-star "></span>
+                            </span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="background-gray">
+</div>
+<div class="background-gray">
     <div id="portofolio" class="container post">
         <h2>Portofolio</h2>
+
         <p class="lead">
-            "The number one benefit of information technology is that it empowers people to do what they want to do. It lets people be creative. It lets people be productive. It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential."
-        <br/>
+            "The number one benefit of information technology is that it empowers people to do what they want to do. It
+            lets people be creative. It lets people be productive. It lets people learn things they didn't think they
+            could learn before, and so in a sense it is all about potential."
+            <br/>
             - Steve Ballmer
         </p>
         <hr/>
         <div class="row">
             <a target="_blank" href="https://www.facebook.com/BocterApp">
-            <div class="col-md-6 col-sm-12 col-xs-12" >
-                <figure class="effect">
-                    <img alt="BocterApp" src="css/assets/bocterapp.jpg"/>
-                    <figcaption>
-                        <h3>BocterApp</h3>
-                        <p>With BocterApp you can alert people around you when you have a problem so that they can help you out in a matter of minutes.</p>
-                        <p>
-                            <strong>Tags: </strong>
-                            <br/>
-                            Java, Objective-C, C#, Android, iOS, WP8, SQL, Google Services
-                        </p>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <figure class="effect">
+                        <img alt="BocterApp" src="css/assets/bocterapp.jpg"/>
+                        <figcaption>
+                            <h3>BocterApp</h3>
+
+                            <p>With BocterApp you can alert people around you when you have a problem so that they can
+                                help you out in a matter of minutes.</p>
+
+                            <p>
+                                <strong>Tags: </strong>
+                                <br/>
+                                Java, Objective-C, C#, Android, iOS, WP8, SQL, Google Services
+                            </p>
                         <span class="icon">
                             <span class="glyphicon glyphicon-new-window"></span>
                         </span>
-                    </figcaption>
+                        </figcaption>
 
-                </figure>
-            </div>
+                    </figure>
+                </div>
             </a>
             <a target="_blank" href="https://rukkus.com/">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="effect">
-                    <img alt="Rukkus" src="css/assets/rukkus.png"/>
-                    <figcaption>
-                        <h3>Rukkus</h3>
-                        <p>Rukkus is the fastest, easiest way to get the best prices on concert, sports, and theater tickets.</p>
-                        <p>
-                            <strong>Tags: </strong>
-                            <br/>
-                            Testing, Java, Android, Google Services, SQL
-                        </p>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <figure class="effect">
+                        <img alt="Rukkus" src="css/assets/rukkus.png"/>
+                        <figcaption>
+                            <h3>Rukkus</h3>
+
+                            <p>Rukkus is the fastest, easiest way to get the best prices on concert, sports, and theater
+                                tickets.</p>
+
+                            <p>
+                                <strong>Tags: </strong>
+                                <br/>
+                                Testing, Java, Android, Google Services, SQL
+                            </p>
                         <span class="icon">
                             <span class="glyphicon glyphicon-new-window"></span>
                         </span>
-                    </figcaption>
-                </figure>
-            </div>
+                        </figcaption>
+                    </figure>
+                </div>
             </a>
         </div>
         <div class="row">
@@ -1043,7 +1152,10 @@
                         <img alt="Tiler" src="css/assets/tiler.jpg"/>
                         <figcaption>
                             <h3>Tiler</h3>
-                            <p>A puzzle game for mobile platforms. Currently in development for Android and Windows Phone</p>
+
+                            <p>A puzzle game for mobile platforms. Currently in development for Android and Windows
+                                Phone</p>
+
                             <p>
                                 <strong>Tags: </strong>
                                 <br/>
@@ -1057,129 +1169,138 @@
                 </div>
             </a>
             <a target="_blank" href="https://www.worldfinancialdigest.com/">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="effect">
-                    <img alt="WFD" src="css/assets/wfd.jpg"/>
-                    <figcaption>
-                        <h3>World Financial Digest</h3>
-                        <p>I've redesigned and optimized this website on request. This is one of the many jobs I've done as a freelancer</p>
-                        <p>
-                            <strong>Tags: </strong>
-                            <br/>
-                            PHP, Joomla, Testing, HTML, CSS, Javascript
-                        </p>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <figure class="effect">
+                        <img alt="WFD" src="css/assets/wfd.jpg"/>
+                        <figcaption>
+                            <h3>World Financial Digest</h3>
+
+                            <p>I've redesigned and optimized this website on request. This is one of the many jobs I've
+                                done as a freelancer</p>
+
+                            <p>
+                                <strong>Tags: </strong>
+                                <br/>
+                                PHP, Joomla, Testing, HTML, CSS, Javascript
+                            </p>
                         <span class="icon">
                             <span class="glyphicon glyphicon-new-window"></span>
                         </span>
-                    </figcaption>
-                </figure>
-            </div>
+                        </figcaption>
+                    </figure>
+                </div>
             </a>
         </div>
     </div>
-    </div>
-    <div class="background-white">
-        <div id="contact" class="container post">
+</div>
+<div class="background-white">
+    <div id="contact" class="container post">
+        <br/>
+        <br/>
+
+        <h2>Contact</h2>
+
+        <p class="lead">
+            "You have succeeded in life when all you really want is only what you really need."
             <br/>
-            <br/>
-            <h2>Contact</h2>
-            <p class="lead">
-                "You have succeeded in life when all you really want is only what you really need."
-            <br/>
-                - Vernon Howard
-            </p>
-            <hr/>
-            <div class="row">
-                <div>
-                    <form id="contact-form" class="checkform" method="post" action="includes/form_process.php">
-                        <div class="form-row clearfix">
-                            <label class="required" for="name">
-                                Name *
-                            </label>
-                            <div class="form-value">
-                                <input id="name" class="name" type="text" value="" name="name"/>
-                            </div>
+            - Vernon Howard
+        </p>
+        <hr/>
+        <div class="row">
+            <div>
+                <form id="contact-form" class="checkform" method="post" action="includes/form_process.php">
+                    <div class="form-row clearfix">
+                        <label class="required" for="name">
+                            Name *
+                        </label>
+
+                        <div class="form-value">
+                            <input id="name" class="name" type="text" value="" name="name"/>
                         </div>
-                        <div class="form-row clearfix">
-                            <label class="required" for="email">
-                                Email *
-                            </label>
-                            <div class="form-value">
-                                <input id="email" class="email" type="text" value="" name="email"/>
-                            </div>
+                    </div>
+                    <div class="form-row clearfix">
+                        <label class="required" for="email">
+                            Email *
+                        </label>
+
+                        <div class="form-value">
+                            <input id="email" class="email" type="text" value="" name="email"/>
                         </div>
-                        <div class="form-row clearfix textbox">
-                            <label class="required" for="message">
-                                Message *
-                            </label>
-                            <div class="form-value">
-                                <textarea id="message" class="message" cols="50" rows="15" name="message"></textarea>
-                            </div>
+                    </div>
+                    <div class="form-row clearfix textbox">
+                        <label class="required" for="message">
+                            Message *
+                        </label>
+
+                        <div class="form-value">
+                            <textarea id="message" class="message" cols="50" rows="15" name="message"></textarea>
                         </div>
-                        <div class="form-row form-submit">
-                            <input class="submit" type="submit" method="post" value="Submit" name="submit"></input>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-row form-submit">
+                        <input class="submit" type="submit" method="post" value="Submit" name="submit"></input>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer-div">
-            <a class="scroll-up" href="#profile">
-                <span class="glyphicon glyphicon-chevron-up"></span>
-            </a>  
-            <div class="col-md-6">
-                <ul class="no-bullet-points">
-                    <li>
-                        <a target="_blank" href="https://twitter.com/BogdanSocaciu">
-                            <img class="icon-twitter" src="css/assets/Twitter_logo_white.png" text="https://twitter.com/BogdanSocaciu"/>
-                            
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://ro.linkedin.com/in/bogdansocaciu">
-                            <img class="icon-linkedin" src="css/assets/linked.png" text="https://ro.linkedin.com/in/bogdansocaciu"/>
-                            
-                        </a>
-                    </li>
-                </ul>
-            </div>  
-            <div class="col-md-6">
-                <ul class="no-bullet-points">
-                    <li>
-                        <a target="_blank" href="skype:rockawayoftheday?call">
-                            <img class="icon-skype" src="css/assets/skype-512.png" text="skype:rockawayoftheday?call"/>
-                            
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="mailto:bogdansocaciu1994@yahoo.com">
-                            <img class="icon-mail" src="css/assets/mail.png" text="bogdansocaciu1994@yahoo.com"/>
-                        </a>
-                    </li>
-                </ul>
-            </div> 
-        </div>
-        <p class="copyright">Copyright © 2015 Socaciu Bogdan</p>
-    </footer>
-    <script src="javascript/viewportchecker.js"></script>
+</div>
+<footer>
+    <div class="footer-div">
+        <a class="scroll-up" href="#profile">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
 
-    <!--FadeIn Effect START-->
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            jQuery('.post').addClass("hidden").viewportChecker({
-                classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
-                offset: 100
-            });
+        <div class="col-md-6">
+            <ul class="no-bullet-points" style="padding-left: 25px">
+                <li>
+                    <a target="_blank" href="https://twitter.com/BogdanSocaciu">
+                        <img class="icon-twitter" src="css/assets/Twitter_logo_white.png"
+                             text="https://twitter.com/BogdanSocaciu"/>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://ro.linkedin.com/in/bogdansocaciu">
+                        <img class="icon-linkedin" src="css/assets/linked.png"
+                             text="https://ro.linkedin.com/in/bogdansocaciu"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul class="no-bullet-points" style="padding-left: 25px">
+                <li>
+                    <a target="_blank" href="skype:rockawayoftheday?call">
+                        <img class="icon-skype" src="css/assets/skype-512.png" text="skype:rockawayoftheday?call"/>
+
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="mailto:bogdansocaciu1994@yahoo.com">
+                        <img class="icon-mail" src="css/assets/mail.png" text="bogdansocaciu1994@yahoo.com"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <p class="copyright">Copyright © 2015 Socaciu Bogdan</p>
+</footer>
+<script src="javascript/viewportchecker.js"></script>
+
+<!--FadeIn Effect START-->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('.post').addClass("hidden").viewportChecker({
+            classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+            offset: 100
         });
-    </script>
-    <!--FadeIn Effect END-->
-    <!--FOOTER
-    <footer>
-        <p>Copyright © 2015 Socaciu Bogdan</p>
-    </footer>
-        -->
+    });
+</script>
+<!--FadeIn Effect END-->
+<!--FOOTER
+<footer>
+    <p>Copyright © 2015 Socaciu Bogdan</p>
+</footer>
+    -->
 </body>
 
 
