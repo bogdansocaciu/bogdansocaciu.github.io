@@ -1208,7 +1208,7 @@
         <hr/>
         <div class="row">
             <div>
-                <form id="contact-form" class="checkform" method="post" action="includes/form_process.php">
+                <form id="contact-form" class="checkform" method="POST" action="http://formspree.io/bogdansocaciu1994@yahoo.com">
                     <div class="form-row clearfix">
                         <label class="required" for="name">
                             Name *
@@ -1224,7 +1224,7 @@
                         </label>
 
                         <div class="form-value">
-                            <input id="email" class="email" type="text" value="" name="email"/>
+                            <input id="email" class="email" type="text" value="" name="_replyto"/>
                         </div>
                     </div>
                     <div class="form-row clearfix textbox">
@@ -1237,7 +1237,8 @@
                         </div>
                     </div>
                     <div class="form-row form-submit">
-                        <input class="submit" type="submit" method="post" value="Submit" name="submit"></input>
+                        <input type="hidden" name="_next"/>
+                        <input class="submit" type="submit" value="Send"></input>
                     </div>
                 </form>
             </div>
